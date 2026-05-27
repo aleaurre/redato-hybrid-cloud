@@ -1,0 +1,1 @@
+﻿# Redato - Hybrid Cloud
