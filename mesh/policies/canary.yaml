@@ -1,18 +1,33 @@
 apiVersion: networking.istio.io/v1beta1
 kind: VirtualService
 metadata:
-  name: reviews-canary
-  namespace: bookinfo
+  name: helloworld-canary
+  namespace: sample
 spec:
   hosts:
-  - reviews
+  - helloworld
   http:
   - route:
     - destination:
-        host: reviews
+        host: helloworld
         subset: v1
       weight: 90
     - destination:
-        host: reviews
+        host: helloworld
         subset: v2
       weight: 10
+---
+apiVersion: networking.istio.io/v1beta1
+kind: DestinationRule
+metadata:
+  name: helloworld-subsets
+  namespace: sample
+spec:
+  host: helloworld
+  subsets:
+  - name: v1
+    labels:
+      version: v1
+  - name: v2
+    labels:
+      version: v2

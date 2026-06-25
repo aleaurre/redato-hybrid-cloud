@@ -1,10 +1,10 @@
 apiVersion: networking.istio.io/v1beta1
 kind: DestinationRule
 metadata:
-  name: reviews-cb
-  namespace: bookinfo
+  name: helloworld-cb
+  namespace: sample
 spec:
-  host: reviews
+  host: helloworld
   trafficPolicy:
     outlierDetection:
       consecutive5xxErrors: 3

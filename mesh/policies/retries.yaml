@@ -1,15 +1,15 @@
 apiVersion: networking.istio.io/v1beta1
 kind: VirtualService
 metadata:
-  name: reviews-retry
-  namespace: bookinfo
+  name: helloworld-retry
+  namespace: sample
 spec:
   hosts:
-  - reviews
+  - helloworld
   http:
   - route:
     - destination:
-        host: reviews
+        host: helloworld
     retries:
       attempts: 3
       perTryTimeout: 2s
