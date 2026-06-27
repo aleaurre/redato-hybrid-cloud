@@ -1,0 +1,7 @@
+scenario,Media (ms),Mediana (ms),p95 (ms),Desvío (ms)
+"Con mesh
+(WAN degradada)",52.62,51.63,59.29,4.65
+"Con mesh
+(baseline)",54.82,53.96,63.02,5.12
+"Sin mesh
+(100% error)",0.01,0.0,0.0,0.32
