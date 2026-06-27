@@ -1,8 +1,8 @@
-# Redato — Hybrid Cloud
+# Redato: Hybrid Cloud
 
 Implementación de una arquitectura **Hybrid Cloud** que conecta un clúster *on-prem* con un clúster en la nube a través de una **VPN site-to-site WireGuard**, sobre la que se despliega un **service mesh Istio multi-primario** (multi-cluster / multi-network). El proyecto integra un pipeline de Machine Learning para detección de tráfico anómalo, una batería de experimentos de performance con k6 y una demostración de diagnóstico de red por capas (PMTU black hole).
 
-Proyecto del curso **REDATO** — Universidad Católica del Uruguay.
+Proyecto del curso **Redes de Datos**, Universidad Católica del Uruguay.
 
 ---
 
