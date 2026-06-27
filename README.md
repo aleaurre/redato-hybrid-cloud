@@ -143,9 +143,6 @@ python experiments/analyze.py            # genera summary.csv y la gráfica
 
 ## Equipo
 
-Proyecto desarrollado en equipo. Roles principales:
-
-- **Persona 1 — Infraestructura:** VPN WireGuard sobre Tailscale, clústeres k3d, configuración de Istio multi-primario, observabilidad y experimentos.
-- **Persona 2 — Mesh:** configuración del service mesh y políticas de tráfico.
+Proyecto desarrollado en equipo por Alexia Aurrecochea, Valentín Rodriguez,  Martina Caetano y Mikaela Maldonado.
 
 Curso REDATO — Universidad Católica del Uruguay.
