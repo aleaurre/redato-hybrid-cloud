@@ -64,7 +64,9 @@ redato-hybrid-cloud/
 ├── demo/                       # Capturas del Observatorio Multi-Capa (demo en vivo)
 │   └── graphanamulti1.png … graphanamulti5.png
 │
-└── PMTU.md                     # Guion de la demo: PMTU black hole y MSS clamping
+├── PMTU.md                     # Teórico: PMTU black hole y MSS clamping
+│
+└── demo_guion.md               # Guion de la demo
 ```
 
 ---
